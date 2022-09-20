@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+    display: flex;
+}
+header >*{
+    flex-basis: 100%;
+}
+img{
+
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.title{
+    margin-top: 10px;
+    
+}
+h3{
+    color: #1F7979;
+    margin-bottom: 10px;
+}
+.profile{
+    padding: 20px;
+    margin:10px
+
+}
+.career{
+    padding: 20px;
+    margin:10px
+
+}
+.career p{
+    padding-top: 10px;
+}
+.career ul {
+    padding-left: 75px;
+    padding-top: 10px;
+}
+.skill{
+    padding: 20px;
+    margin:10px
+
+}
+.skill p{
+    padding-top: 10px;
+}
+.education{
+    padding: 20px;
+    margin:10px
+
+}
+.education p{
+    padding-top: 10px;
+}
+.education ul {
+    padding-left: 75px;
+    padding-top: 10px;
+}
+.contact{
+    padding: 20px;
+    margin:10px
+
+}
