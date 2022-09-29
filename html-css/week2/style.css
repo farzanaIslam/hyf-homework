@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#FAFAFA ;
+}
+.heading{
+    padding: 30px 100px 5px 100px;
+    
+}
+.article{
+    font-size: 20px;
+    color: gray;
+    padding: 0px 100px 10px 100px;
+}
+nav{
+    padding: 20px 100px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 30px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:black
+
+}
+nav ul li a:hover{
+    color: gray;
+}
+nav .active{
+    color:gray;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+/* ==========content part============ */
+.content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 30px 100px 5px 100px;
+    grid-gap:9px
+
+}
+.content p{
+    color: gray;
+    padding: 20px 20px 20px 0px ;
+    text-align: justify;
+}
+.galaryLogo img{
+    height: 100%;
+    width: 100%;
+}
+.galaryLogo{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    grid-gap:5px
+
+}
+.footer{
+    background-color: #6836CD;
+    height: 420px;
+    width: 100%;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30px 100px 5px 100px;
+    justify-items: center;
+
+}
+.footer h3{
+    padding-bottom: 30px;
+
+}
+.find h5,p{
+    padding: 5px;
+}
+iframe{
+    height: 200px;
+    width: 200px;
+    /* padding-bottom: 20px; */
+}
+
+.archives ul{
+list-style: none;
+}
+.archives ul li{
+    padding-bottom: 20px;
+
+}
+.archives ul li a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 20px;
+    transition: right ease 0.5s;
+    
+}
+.navigation ul{
+    list-style: none;
+    }
+    
+.navigation ul li{
+        padding-bottom: 20px;
+    
+    }
+    .archives ul li:not(:last-child) , .navigation ul li:not(:last-child) {
+        margin-bottom: 10px;
+        border-bottom: 2px solid gray;
+    }
+.navigation ul li a{
+    text-decoration: none;
+        color:white;
+        
+        padding-bottom: 20px;
+        padding-top: 10px;
+        transition: right ease 0.5s;
+        
+    }
+    .archives ul li a:hover , 
+     .navigation ul li a:hover{
+       padding: 30px;
+    }
+
