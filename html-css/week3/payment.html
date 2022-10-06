@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="logo.jpg" alt="" />
+      </div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="bar"><i class="fa fa-solid fa-bars"></i></label>
+      <ul>
+        <li><a class="active" href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">blog</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="title">
+        <h1>Sign up to your custom tailor</h1>
+      </div>
+      <div class="step1">
+        <h2>Step 4/4 - Payment</h2>
+        <p>progress</p>
+        <progress id="file" value="100" max="100"></progress>
+        <div class="box">
+          <p>Please fill in your payment data!</p>
+          <form action="" method="get" class="form">
+            <div class="name">
+              <label for="">Name on credit card*</label>
+              <input type="text" name="" id="" required />
+            </div>
+            <div class="countryList">
+              <label for="country">Card type*</label>
+
+              <select name="country" id="country">
+                <option value="0">select your card type</option>
+                <option value="1">Credit</option>
+                <option value="2">Debit</option>
+                <option value="3">Prepaid</option>
+              </select>
+            </div>
+            <div class="street">
+              <label for="">Card number*</label>
+              <input type="number" placeholder="1111 2222 3333 4444" required />
+              <label for="">First name*</label>
+              <input type="text" required />
+            </div>
+            <div class="date">
+              <label for="">Expiry Month*</label>
+
+              <input
+                type="date"
+                name=""
+                id=""
+                value="2018-07-22"
+                min="2018-01-01"
+                max="2018-12-31"
+              />
+            </div>
+            <div class="paragraph">
+              <label for="">ccv</label>
+              <input type="text" />
+            </div>
+            <div class="paym">
+              <button><a href="index.html">Next step</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
