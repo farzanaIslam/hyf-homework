@@ -1,3 +1,7 @@
 1) Conspiracy theory
 2)the black window
+<<<<<<< HEAD
 4)the gentalman
+=======
+3)the rock
+>>>>>>> dd16e4c48595a732cff11db1858829ae3a8ec0d9
