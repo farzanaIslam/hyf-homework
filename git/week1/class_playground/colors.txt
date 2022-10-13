@@ -1,0 +1,2 @@
+1 this is the red color of 1st line
+2 this is the yellow color of the second line
